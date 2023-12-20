@@ -56,11 +56,11 @@ onMounted(async () => {
 </script>
 <template>
   <div class="d-flex">
-    <header class="d-flex">
+    <header class="d-flex bg-secondary">
       <!-- Icon Sidwebar -->
       <nav class="menu" v-if="menuIsTrue" style="width: 20vw;">
-        <div>
-          <h5 class="py-2 px-3 title " style=" color:black;display: flex; justify-content: space-between;">ADMINISTRATOR
+        <div class="bg-dark">
+          <h5 class="py-3 px-3 title " style=" color:white;display: flex; justify-content: space-between;">ADMINISTRATOR
            
           </h5>
         </div>

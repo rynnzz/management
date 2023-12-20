@@ -7,6 +7,7 @@ import StudentPage from "./StudentPage.vue";
 import router from "./router";
 import { user } from "./store/user";
 
+
 function handleUserRoutes(userType) {
   const app = createApp(userType === "admin" ? App : userType === "adminPrivilage" ? adminPrivilage :userType === "students" ? StudentPage :userType === "faculty" ? FacultyPage : Login);
   app.use(router); 

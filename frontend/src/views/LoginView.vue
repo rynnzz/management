@@ -1,10 +1,6 @@
 <template>
   <ul class="nav nav-pills">
   
-
-  <li class="nav-item">
-    <RouterLink class="nav-link" to="/Login">Sign In</RouterLink>
-  </li>
   
 </ul>
   <div>
